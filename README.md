@@ -12,7 +12,7 @@ This assignment focused on the analysis of three packet scheduling methods in LT
   - Frequency reuse factor: N = 1 (contiguous reuse)
 - Path gain model: -(115 dB + 35 × log₁₀(distance/km))
 - User placement: 10 users (numbered 0-9) positioned at equal distances from cell center to edge
-- Multipath fading: Modeled using 5000-TTI traces (5 seconds, 1ms per TTI)
+- Multipath fading: Modeled using 5000-TTI traces (5 seconds, 1ms per TTI) across each SRB for each user.
 
 ## Implementation Structure
 
